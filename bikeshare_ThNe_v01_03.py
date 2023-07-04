@@ -240,12 +240,12 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data_lookup(df):
-    UserRawData = 0
+    UserRawData = 0 #set intitial variable
 
     while UserRawData <= 0:
-
+        # Input prompt if the user wants to see raw data
         UserRawAns = input('\nDo you want to see the raw data based on your filters? Please type yes or no!:')
-            
+        # Setting variables for the raw data
         if UserRawAns == 'yes':
             UserRawData = 1
         elif UserRawAns == 'no':

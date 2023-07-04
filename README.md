@@ -1,17 +1,20 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+The project got created at the 4th of July in 2023.
 
 ### Project Title
-Replace the Project Title
+Udacity Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+The Bikeshare project of Udacity is the end project of the **introduction of Python** course. This course is a part of the **Programming for Data Science with Python** _Microdegree_.
+
+The main part of the project is to load data from _*.csv_ into the python enviroment. Afterwards the data gets get prcessed in a way that the user gets statistical siginficant data.
 
 ### Files used
-Include the files used
+- bikeshare_ThNe_v01_03.py
+- Sources.txt
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
 

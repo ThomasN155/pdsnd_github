@@ -239,7 +239,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def raw_data(df):
+def raw_data_lookup(df):
     UserRawData = 0
 
     while UserRawData <= 0:
@@ -291,7 +291,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw_data(df)
+        raw_data_lookup(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
